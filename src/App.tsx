@@ -96,13 +96,13 @@ const App = () => {
 
                     <Form.Item label="Rua">
                       <Input
-                        // value={form.getFieldsValue(true).logradouro}
+                        value={form.getFieldsValue(true).logradouro}
                         readOnly
                       />
                     </Form.Item>
                     <Form.Item label="Bairro">
                       <Input
-                        // value={form.getFieldsValue(true).bairro}
+                        value={form.getFieldsValue(true).bairro}
                         readOnly
                       />
                     </Form.Item>
